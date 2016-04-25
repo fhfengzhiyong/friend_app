@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_bg">#FF0099CC</color>
+    <color name="statusbar_bg">#FF0099CC</color>
+    <!--粉红  -->
+    <color name="actionbar_1">#DB50F0</color>
+    <color name="actionbar_21">#E5F552</color>
+    <color name="actionbar_2">#EA8946</color>
+    <color name="actionbar_3">#79C443</color>
+    <color name="actionbar_4">#D140E3</color>
+    <color name="actionbar_5">#f3f3f3</color>
+</resources>

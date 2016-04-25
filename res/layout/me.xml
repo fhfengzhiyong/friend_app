@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#f3f3f3"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/me_phtot"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/tangguo" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+        
+          <Button
+        android:background="@drawable/rounded_textview_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        android:text="登录/注册/修改信息"
+        android:textColor="#ffffff"
+        android:onClick="register"
+        android:textSize="18sp"
+        />
+       <TextView 
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rounded_textview_up"
+           android:textColor="#000000"
+           android:text="下期: "
+           />
+         <TextView 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rounded_textview_no"
+           android:textColor="#000000"
+           android:text="
+           1,完善本版本中的基础功能.
+           "
+           />
+           <TextView 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rounded_textview_no"
+           android:textColor="#000000"
+           android:text="
+           2,同一个圈子中的人可以建立签到(根据位置有统计图表).
+           "
+           />
+             <TextView 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rounded_textview_no"
+           android:textColor="#000000"
+           android:text="
+           3,增加推送功能.          
+           "
+           />
+               <TextView 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rounded_textview_no"
+           android:textColor="#000000"
+           android:text="
+           4,增加上传头像,用于显示到个人设置的背景和地位时.
+           "
+           />
+          <TextView 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rounded_textview_down"
+           android:textColor="#000000"
+           android:text="
+           5,定位到朋友可以安排路线.
+           "
+           />
+    </LinearLayout>
+  
+</LinearLayout>

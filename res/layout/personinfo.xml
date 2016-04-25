@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="100dp" >
+
+   
+        <TextView 
+            android:id="@+id/info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="名字"
+            android:textSize="16sp"
+            android:textColor="#F715CE"
+            />
+
+        <com.straw.friend.pojo.CircularImage  
+            android:id="@+id/info_img"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/info_name"
+            android:alpha="1.0"
+            android:background="@drawable/mapbg"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/aq_sz" />
+</RelativeLayout>
